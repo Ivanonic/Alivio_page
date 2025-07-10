@@ -1,2 +1,9 @@
 :root {
+    --bg-white: #ffffff;
+    --bg-green: #017f67;
+    --bg-dark-green: #245852;
+    --bg-black: #292929;
+    --bg-btn: #000000;
 }
+
+/*media breakpoints: 992px, 768px, 576px, 480px */
