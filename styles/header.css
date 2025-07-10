@@ -81,6 +81,13 @@
     }
 }
 
-                                            /* .btn {
-                                            basic.css
-                                            } */
+@media (max-width: 350px) {
+                                    /* btn-2 basic.css */
+    .btn-1 {
+        width: 85px;
+    }
+    
+    .btn-2 {
+        width: 85px;
+    }
+}
