@@ -5,6 +5,9 @@
     --bg-black: #292929;
     --bg-btn: #000000;
     --bg-description: #484848;
+    --bg-main-about-h2: #424242;
+    --bg-main-about-h3:#01996D;
+    --bg-main-about-img: #C4C4C4;
 }
 
 /*media breakpoints: 992px, 768px, 576px, 480px */
