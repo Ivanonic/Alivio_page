@@ -1,0 +1,135 @@
+.video {
+    background-color: var(--bg-dark-green);
+    padding: 220px 0 220px 0;
+}
+
+                                                /* .container {
+                                                    basic.css
+                                                } */
+
+.video_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    column-gap: 20px;
+}
+
+.video_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video_title {
+    max-width: 555px;
+    height: 158px;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--bg-white);
+    line-height: 135%;
+    letter-spacing: 0%;
+}
+
+.video_description {
+    max-width: 555px;
+    height: 39px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0%;
+    color: var(--bg-white);
+    padding: 0 0 135px 0;
+}
+
+.video_btn {
+    width: 240px;
+    height: 65px;
+}
+                                                
+                                                /* .play_content {
+                                                    empty
+                                                } */
+
+div .play_content, img .video_play-webp {
+    width: 660px;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+
+.size {
+    max-width: 100%;
+    height: 100%;
+    object-fit: fill;
+    aspect-ratio: 66/43;
+    border-radius: 15px;
+
+}
+
+.play_icon {
+    position: absolute;
+    z-index: 2;
+    width: 72px;
+    height: 73px;
+    fill: var(--bg-white);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.play_icon:hover {
+    fill: var(--bg-green);
+    cursor: pointer;
+}
+
+                                                /* .video_play-icon {
+                                                    empty
+                                                } */
+
+@media (max-width: 1254px) {
+    
+    .video {
+        padding: 100px 0 100px 0;
+    }
+
+    .video_wrapper {
+        display: flex;
+        justify-content: center;
+        row-gap: 100px;
+    }
+
+    .play_content {
+        display: flex;
+        justify-content: center;
+    }
+
+   .video_play-webp {
+        width: 540px;
+   }
+}
+
+@media (max-width: 576px) {
+    
+    .video_play-webp {
+        width: 440px;
+   }
+
+   .video_title {
+       max-width: 286px;
+       font-size: 40px;
+       margin: 0 0 60px 0;
+    }
+
+    .video_description {
+        max-width: 286px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+     .video_play-webp {
+        width: 340px;
+   }
+}

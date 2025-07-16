@@ -71,7 +71,6 @@
     width: 100%;
     object-fit: cover;
     aspect-ratio: auto 65/82;
-    /* color: var(--bg-main-about-img); */
 }
 
 .card_title-end {
