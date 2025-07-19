@@ -49,7 +49,6 @@
     color: var(--bg-green);
 }
 
-                                        /* button */
 .header_action {
     display: flex;
     justify-content: space-between;

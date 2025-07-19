@@ -1,0 +1,148 @@
+.product {
+    padding: 115px 0 240px 0;
+    background-color: var(--bg-white);
+}
+
+                                                /* .container {
+                                                    basic.css
+                                                } */
+
+.product_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+    padding: 0 30px 0 30px;
+    width: 100%;
+    gap: 15px;
+}
+
+.product_images {
+    overflow: hidden;
+    width: 640px;
+    height: 570px;
+}
+
+.product_images-img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 64/57;
+    border-radius: 15px;
+}
+
+section, div.product_wrapper, div.product_images .product_images-img {
+    position: relative;
+}
+
+.product_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_info {
+    width: 138px;
+    height: 39px;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--bg-main-about-h2);
+    line-height: 157%;
+    letter-spacing: 0%;
+}
+
+.product_title {
+    width: 494px;
+    height: 158px;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--bg-main-about-h3);
+    line-height: 157%;
+    letter-spacing: 0%;
+}
+
+.product_description {
+    width: 530px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--bg-description);
+    line-height: 157%;
+    letter-spacing: 0%;
+}
+
+.product_content .btn-2 {
+    width: 227px;
+    height: 65px;
+}
+
+@media (max-width: 1265px) {
+
+    .product {
+        padding: 115px 0 100px 0;
+    }
+    
+    .product_wrapper {
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .product_info {
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .product_title {
+        font-size: 28px;
+        width: 400px;
+        height: 120px;
+    }
+
+    .product_description {
+        width: 400px;
+        height: 140px;
+        font-size: 16px;
+    }
+
+    .product_content .btn-2 {
+       margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .product_wrapper {
+        padding: 0 10px 0 10px;
+    }
+
+    .product_content {
+        padding: 0 10px 0 40px;
+    }
+
+    .product_info {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .product_title {
+        font-size: 23px;
+        width: 317px;
+        height: 75px;
+    }
+
+    .product_description {
+        width: 300px;
+        height: 130px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .product_content .btn-2 {
+       margin: auto 10%;
+    }
+}
