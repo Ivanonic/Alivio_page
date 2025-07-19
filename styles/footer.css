@@ -21,9 +21,9 @@
     padding: 0 0 65px 0;
 }
 
-.footer_nav {
-
-}
+                                            /* .footer_nav {
+                                                empty
+                                            } */
 
 .footer_nav-list {
     display: flex;
@@ -33,8 +33,9 @@
     gap: 60px;
 }
 
-.footer_nav-item {
-}
+                                            /* .footer_nav-item {
+                                                empty
+                                            } */
 
 .footer_nav-link {
     font-size: 25px;
