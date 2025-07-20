@@ -42,7 +42,7 @@
     padding: 0 0 135px 0;
 }
 
-video_content, a.video_link-btn .btn-2 {
+.video_btn {
     width: 240px;
     height: 65px;
 }
@@ -128,8 +128,16 @@ div .play_content, img .video_play-webp {
 }
 
 @media (max-width: 480px) {
+
+    .video_play-webp {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 430px) {
     
-     .video_play-webp {
+    .video_play-webp {
         width: 340px;
-   }
+    }
 }

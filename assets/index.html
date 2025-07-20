@@ -26,7 +26,7 @@
                         <li class="header_nav-item">
                             <a href="#about-id" class="header_nav-link">Solutions</a>
                         </li>
-                        <li class="#header_nav-item">
+                        <li class="header_nav-item">
                             <a href="#video-id" class="header_nav-link">Community</a>
                         </li>
                         <li class="header_nav-item">
@@ -43,6 +43,38 @@
         </div>
     </header>
 
+    <div class="mobile_navigation" aria-label="mobile navigation">
+        <label for="menu_toggler-id" aria-label="open-close mobile navigation menu">
+            <svg class="mobile_navigation-burger" aria-label="burger icon">
+                <use href="./sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+        <input type="checkbox" name="toggler" id="menu_toggler-id" class="mobile_navigation-toggler">
+
+        <nav class="mobile_navigation-menu" aria-label="mobile navigation menu">
+            <ul class="mobile_navigation-list" aria-label="mobile navigation list">
+                <li class="mobile_navigation-item">
+                    <a href="#about-id" class="mobile_navigation-link">Why Alivio</a>
+                </li>
+                <li class="mobile_navigation-item">
+                    <a href="#video-id" class="mobile_navigation-link">Solutions</a>
+                </li>
+                    <li class="mobile_navigation-item">
+                    <a href="#product-id" class="mobile_navigation-link">Community</a>
+                </li>
+                <li class="mobile_navigation-item">
+                    <a href="#footer-id" class="mobile_navigation-link">Pricing</a>
+                </li>
+            </ul>
+
+            <label for="menu_toggler-id" class="mobile_navigation-close" aria-label="close mobile navigation menu">
+                <svg class="mobile_navigation-cross" aria-label="cross icon">
+                    <use href="./sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main>
         <section class="hero" aria-label="hero section" id="hero-id">
             <div class="container">
@@ -54,7 +86,7 @@
                         Everyone experiences stress in different ways.
                         Let Alivio guide you, in a personalized journal experience, to overcome your stress.
                     </p>
-                    <button tape="button" class="btn-2">
+                    <button type="button" class="btn-2">
                         Find Your Way
                     </button>
                 </div>
@@ -92,7 +124,7 @@
                         <h4 class="card_title card_title-end" aria-label="card title">
                             Write & Understand
                         </h4>
-                        <p class="card_description card_description-end" aria-label="card_description-end">
+                        <p class="card_description card_description-end" aria-label="card description end">
                             Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!
                         </p>
                         <img src="/assets/webp/card_2.webp" alt="img.webp-2" class="card_img">
@@ -118,11 +150,11 @@
                     <div class="video_content">
                         <h3 class="video_title" aria-label="video title">Let's hear about Kayla's success story</h3>
                         <p class="video_description" aria-label="video description">See how well Alivio works in a real customer’s life.</p>
-                        <a href="https://youtu.be/9Hxmq5LiNPY" class="video_link-btn"><button class="btn-2 video_btn" aria-label="btn-2">Let’s get started</button></a>
+                        <button class="btn-2 video_btn" aria-label="btn-2 video btn">Let’s get started</button>
                     </div>
 
                     <div class="play_content" aria-label="play content">
-                        <img src="./webp/video_card.webp" alt="video_img.webp" width="660px" aria-label="video img webp" class="video_play-webp size">
+                        <img src="./webp/video_card.webp" alt="video_img.webp" aria-label="video img webp" class="video_play-webp size">
                         <a href="https://youtu.be/9Hxmq5LiNPY" class="link to the video" aria-label="link video">
                             <svg class="play_icon" aria-label="play icon">
                             <use href="sprites.svg#play-icon" class="video_play-icon"></use>
@@ -157,11 +189,11 @@
                             <img src="./webp/photo_card.webp" class="photo_card-product" aria-label="photo card product" alt="photo_card.webp">
                         </div>
                         <h5 class="product_card-name" aria-label="product card name">Mikayla</h5>
-                        <blockquote class="product_card-description" aria-label="product card description">
+                        <blockquote class="product_card-description" aria-label="product card           description">
                             <h6 class="product_card-subtitle" aria-label="product card subtitle">Your custom contents</h6>
                             <ul class="product_card-list" aria-label="product card list">
-                                <li class="product_card-list_item" aria-label="product card list item">Understand Your Stress</li>
-                                <li class="product_card-list_item" aria-label="product card list item">Anger Management</li>
+                                <li class="product_card-list_item">Understand Your Stress</li>
+                                <li class="product_card-list_item">Anger Management</li>
                             </ul>
                         </blockquote>
                     </figure>
@@ -170,7 +202,7 @@
         </section>
     </main>
 
-    <footer class="footer" aria-label="footer section">
+    <footer class="footer" aria-label="footer section" id="footer-id">
         <div class="container">
             <div class="footer_content">
                 <h2 class="footer_title">Alivio</h2>
@@ -178,10 +210,10 @@
                 <nav class="footer_nav" aria-label="footer navigation">
                     <ul class="footer_nav-list" aria-label="footer navigation list">
                         <li class="footer_nav-item">
-                            <a href="#hero-id"" class="footer_nav-link">Why Alivio</a>
+                            <a href="#hero-id" class="footer_nav-link">Why Alivio</a>
                         </li>
                         <li class="footer_nav-item">
-                            <a href="#about-id"" class="footer_nav-link">Solutions</a>
+                            <a href="#about-id" class="footer_nav-link">Solutions</a>
                         </li>
                         <li class="footer_nav-item">
                             <a href="#video-id" class="footer_nav-link">Community</a>
